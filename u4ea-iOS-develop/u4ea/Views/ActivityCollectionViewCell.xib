@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ActivityCollectionViewCell" customModule="u4ea" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="40"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="345" height="40"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gh-05-QQe">
+                        <rect key="frame" x="0.0" y="0.0" width="345" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jyu-9f-OBK">
+                                <rect key="frame" x="14" y="10" width="317" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jyu-9f-OBK" secondAttribute="trailing" constant="14" id="NAg-Ue-GeL"/>
+                            <constraint firstItem="jyu-9f-OBK" firstAttribute="leading" secondItem="3gh-05-QQe" secondAttribute="leading" constant="14" id="VDd-7V-BYb"/>
+                            <constraint firstItem="jyu-9f-OBK" firstAttribute="top" secondItem="3gh-05-QQe" secondAttribute="top" constant="10" id="uC9-hY-M9n"/>
+                            <constraint firstAttribute="bottom" secondItem="jyu-9f-OBK" secondAttribute="bottom" constant="10" id="x9E-qD-tKW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="3gh-05-QQe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="64k-4A-9EG"/>
+                <constraint firstItem="3gh-05-QQe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="96q-wa-M3r"/>
+                <constraint firstAttribute="bottom" secondItem="3gh-05-QQe" secondAttribute="bottom" id="U83-et-22M"/>
+                <constraint firstAttribute="trailing" secondItem="3gh-05-QQe" secondAttribute="trailing" id="z5e-ej-xL8"/>
+            </constraints>
+            <size key="customSize" width="345" height="45"/>
+            <connections>
+                <outlet property="containerView" destination="3gh-05-QQe" id="0p0-Kr-mWO"/>
+                <outlet property="nameLabel" destination="jyu-9f-OBK" id="oz1-bg-PIS"/>
+            </connections>
+            <point key="canvasLocation" x="30.5" y="36.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

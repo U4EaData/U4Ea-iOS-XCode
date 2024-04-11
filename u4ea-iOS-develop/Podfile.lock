@@ -1,0 +1,98 @@
+PODS:
+  - Alamofire (4.2.0)
+  - BAFluidView (0.2.3)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Branch (0.17.6):
+    - Branch/Core (= 0.17.6)
+  - Branch/Core (0.17.6)
+  - FBSDKCoreKit (4.27.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.27.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.27.0):
+    - FBSDKCoreKit
+  - Flurry-iOS-SDK/FlurrySDK (8.1.0)
+  - IQKeyboardManagerSwift (4.0.10)
+  - KIF (3.5.2):
+    - KIF/Core (= 3.5.2)
+  - KIF/Core (3.5.2)
+  - KIF/IdentifierTests (3.5.2):
+    - KIF/Core
+  - MBProgressHUD (1.0.0)
+  - MBSegueCollection (0.2.1)
+  - OHHTTPStubs/Core (6.0.0)
+  - OHHTTPStubs/Default (6.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.0.0)
+  - OHHTTPStubs/Swift (6.0.0):
+    - OHHTTPStubs/Default
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SwiftyJSON (3.1.4)
+  - TwitterCore (3.0.1)
+  - TwitterKit (3.1.1):
+    - TwitterCore (>= 3.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.2.0)
+  - BAFluidView (from `https://github.com/aguscha333/BAFluidView.git`, branch `change_wave_speed`)
+  - Branch (~> 0.17.6)
+  - FBSDKCoreKit (~> 4.27.0)
+  - FBSDKLoginKit (~> 4.27.0)
+  - FBSDKShareKit (~> 4.27.0)
+  - Flurry-iOS-SDK/FlurrySDK
+  - IQKeyboardManagerSwift (~> 4.0.8)
+  - KIF (~> 3.5.2)
+  - KIF/IdentifierTests (~> 3.5.2)
+  - MBProgressHUD (~> 1.0.0)
+  - MBSegueCollection
+  - OHHTTPStubs/Swift (~> 6.0.0)
+  - SDWebImage (~> 3.8)
+  - SwiftyJSON (~> 3.1.3)
+  - TwitterKit (~> 3.1.1)
+
+EXTERNAL SOURCES:
+  BAFluidView:
+    :branch: change_wave_speed
+    :git: https://github.com/aguscha333/BAFluidView.git
+
+CHECKOUT OPTIONS:
+  BAFluidView:
+    :commit: d482ec97c31daf8c1043248fc172de5ff182663e
+    :git: https://github.com/aguscha333/BAFluidView.git
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  BAFluidView: 5d84ef109831b97740f75b6d785e51f13fa08398
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Branch: 73f4eedbe43ccff514090b1adf423026a4603ca9
+  FBSDKCoreKit: ebc6c5f5b3f0e72396041050e2266781a38ac587
+  FBSDKLoginKit: 887be4b7452e1c5a3cc4485ce152529965a0c41e
+  FBSDKShareKit: 4f83956d4ca2960730fe7588a168eb8d535c06dc
+  Flurry-iOS-SDK: 51065be4436f3e21fc8d3d7bb0b7d6869df6333d
+  IQKeyboardManagerSwift: 75ba21a23794a1e6b6fe6d9a267ea17f80e06771
+  KIF: f2a6025bb3f11692df675054a134d43a9ec2d7db
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MBSegueCollection: d837c6645ade9607dd4ff1161ec995d5485c157a
+  OHHTTPStubs: 752f9b11fd810a15162d50f11c06ff94f8e012eb
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TwitterCore: 6856288a1c25e5281363250681f33b42fce1da42
+  TwitterKit: 313bf02baee8427f7649b3640169178e5a8b5a99
+
+PODFILE CHECKSUM: 2104502d848288291eba8edc9ae4ff32abde0c9c
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FeelingCell" customModule="u4ea" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="164" height="40"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="164" height="40"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jeb-51-rOn">
+                        <rect key="frame" x="0.0" y="0.0" width="164" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oU6-bJ-z7b">
+                                <rect key="frame" x="14" y="10" width="136" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="oU6-bJ-z7b" secondAttribute="bottom" constant="10" id="16H-eM-UBz"/>
+                            <constraint firstAttribute="trailing" secondItem="oU6-bJ-z7b" secondAttribute="trailing" constant="14" id="F7j-5S-fTj"/>
+                            <constraint firstItem="oU6-bJ-z7b" firstAttribute="leading" secondItem="Jeb-51-rOn" secondAttribute="leading" constant="14" id="S4D-uk-ynC"/>
+                            <constraint firstItem="oU6-bJ-z7b" firstAttribute="top" secondItem="Jeb-51-rOn" secondAttribute="top" constant="10" id="eLZ-XM-QR8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Jeb-51-rOn" secondAttribute="bottom" id="TfD-ON-HBt"/>
+                <constraint firstItem="Jeb-51-rOn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ues-pt-spi"/>
+                <constraint firstItem="Jeb-51-rOn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="uyy-Me-orb"/>
+                <constraint firstAttribute="trailing" secondItem="Jeb-51-rOn" secondAttribute="trailing" id="wqO-8n-0Kj"/>
+            </constraints>
+            <size key="customSize" width="164" height="60"/>
+            <connections>
+                <outlet property="containerView" destination="Jeb-51-rOn" id="2xM-yZ-Tug"/>
+                <outlet property="feelingLabel" destination="oU6-bJ-z7b" id="TTF-rQ-wPv"/>
+            </connections>
+            <point key="canvasLocation" x="-32" y="57"/>
+        </collectionViewCell>
+    </objects>
+</document>
